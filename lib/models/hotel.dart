@@ -24,7 +24,7 @@ class Hotel {
     destinationId = json['destinationId'];
   }
 
-  // Factory constructor to map Firestore data
+
   factory Hotel.fromFirestore(Map<String, dynamic> data, String id) {
     return Hotel(
       id: id,
